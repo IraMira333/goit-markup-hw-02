@@ -1,0 +1,74 @@
+/* IRIS WEB та кнопок color: #4D5AE5; */
+/* NAVY BLUE другорядний колір тексту color: #2E2F42; */
+/* SLATE основний колір тексту color: #434455;*/
+/* CLOUD в футері колір STUDIO color: #F4F4FD; */
+/* CORNFLOWER в футері колір тексту color: #E7E9FC; */
+/* білий колір тексту color: #FFFFFF; */
+/* основний  */
+
+:root {
+    --primary-text-color: #434455;
+    --secondary-text-color: #2E2F42;
+    --acsent: #4D5AE5;
+    --white-color: #FFFFFF;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: #ffffff;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--secondary-text-color);
+}
+.logo:hover {
+    color: #ff0000;
+}
+.logo-web {
+    color: var(--acsent);
+}
+.logo-web:hover {
+    color: #ff0000;
+}
+
+/* Site nav */
+.site-nav a {
+    color: #2E2F42;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: #ff0000;
+}
+.auth-nav a {
+    color: #434455;
+}
+.auth-nav a:hover,
+.auth-nav a:focus {
+    color: #ff0000;}
+
+/* Hero */
+
+
+/* Section */
+.section-title {
+    color: var(--secondary-text-color);
+}
+
+/* Button */
+.button {
+
+}
+
+.button.primary {
+    color: var(--acsent);
+    background-color: var(--white-color);
+}
+
+.button.secondary {
+    color: var(--white-color);
+    background-color: var(--acsent);
+}
