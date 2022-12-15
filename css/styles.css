@@ -1,4 +1,6 @@
-/* IRIS WEB та кнопок color: #4D5AE5; */
+/* @format */
+
+/*IRIS WEB та кнопок color: #4D5AE5;*/
 /* NAVY BLUE другорядний колір тексту color: #2E2F42; */
 /* SLATE основний колір тексту color: #434455;*/
 /* CLOUD в футері колір STUDIO color: #F4F4FD; */
@@ -7,68 +9,156 @@
 /* основний  */
 
 :root {
-    --primary-text-color: #434455;
-    --secondary-text-color: #2E2F42;
-    --acsent: #4D5AE5;
-    --white-color: #FFFFFF;
+ --primary-text-color: #434455;
+ --secondary-text-color: #2e2f42;
+ --acsent: #4d5ae5;
+ --white-color: #ffffff;
 }
 
 body {
-    color: var(--primary-text-color);
-    background-color: #ffffff;
+ color: var(--primary-text-color);
+ background-color: #ffffff;
+ font-family: 'Roboto', sans-serif;
 }
 
 .list {
-    list-style: none;
+ list-style: none;
+}
+.link {
+ text-decoration: none;
 }
 
-.logo {
-    color: var(--secondary-text-color);
+/* Buttons */
+.button {
 }
-.logo:hover {
-    color: #ff0000;
+.button.primary {
+ color: var(--white-color);
+ background-color: var(--acsent);
+}
+.button.secondary {
+ color: var(--acsent);
+ background-color: var(--white-color);
+}
+
+/* Logo */
+.logo {
+ color: var(--secondary-text-color);
+ font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 800;
+ font-size: 18px;
+ line-height: 1.33x;
+ display: flex;
+ align-items: center;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+}
+.logo:hover,
+.logo:focus {
+ color: #ff0000;
 }
 .logo-web {
-    color: var(--acsent);
+ color: var(--acsent);
 }
-.logo-web:hover {
-    color: #ff0000;
+.logo-web:hover,
+.logo-web:focus {
+ color: #ff0000;
 }
 
 /* Site nav */
-.site-nav a {
-    color: #2E2F42;
+.site-nav .link.current {
+ color: #117b3d;
+ text-decoration: underline;
 }
-.site-nav a:hover,
-.site-nav a:focus {
-    color: #ff0000;
+.site-nav .link {
+ color: #2e2f42;
 }
-.auth-nav a {
-    color: #434455;
+.site-nav .link:hover,
+.site-nav .link:focus {
+ color: #ff0000;
 }
-.auth-nav a:hover,
-.auth-nav a:focus {
-    color: #ff0000;}
+.auth-nav .link {
+ color: #434455;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+ color: #ff0000;
+}
+.nav-tel {
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+}
+.nav-mail {
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+}
 
 /* Hero */
-
-
-/* Section */
-.section-title {
-    color: var(--secondary-text-color);
+.hero {
+}
+.hero-title {
+ color: var(--white-color);
+ font-weight: 700;
+ font-size: 56px;
+ line-height: 1.07;
+ text-align: center;
+ letter-spacing: 0.02em;
+ background-color: var(--secondary-text-color);
+}
+.hero-btn {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 1.19;
+ display: flex;
+ align-items: center;
+ letter-spacing: 0.04em;
 }
 
-/* Button */
-.button {
+/* Sections */
 
+.section-first {
 }
-
-.button.primary {
-    color: var(--acsent);
-    background-color: var(--white-color);
+.section-first-title {
 }
-
-.button.secondary {
-    color: var(--white-color);
-    background-color: var(--acsent);
+.first-list {
+}
+.title-primary {
+ color: var(--secondary-text-color);
+ font-weight: 500;
+ font-size: 36px;
+ line-height: 1.11;
+ text-align: center;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+}
+.title-secondary {
+ color: var(--secondary-text-color);
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 1.2;
+ letter-spacing: 0.02em;
+}
+.text {
+ color: var(--primary-text-color);
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+}
+/* Footer */
+.footer {
+ background-color: var(--secondary-text-color);
+}
+.footer-text {
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #e7e9fc;
 }
