@@ -125,9 +125,12 @@ body {
  clip: rect(0 0 0 0);
  overflow: hidden;
 }
-.section-first {
+.section-third {
+    background-color: #f4f4fd;
 }
-
+.team-card {
+    background-color: var(--white-color);
+}
 .first-list {
 }
 .title-second {
