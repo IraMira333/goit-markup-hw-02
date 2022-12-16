@@ -41,36 +41,39 @@ body {
  letter-spacing: 0.03em;
  text-transform: uppercase;
 }
-.logo:hover,
-.logo:focus {
- color: #ff0000;
+
+.logo:active {
+ color: #404bbf;
 }
+
 .logo-web {
  color: var(--acsent);
 }
-.logo-web:hover,
-.logo-web:focus {
- color: #ff0000;
-}
 
+.logo-web:active {
+ color: #404bbf;
+}
 /* Site nav */
 .site-nav .link.current {
- color: #117b3d;
+ color: #404bbf;
  text-decoration: underline;
 }
 .site-nav .link {
- color: #2e2f42;
+ color: var(--secondary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
- color: #ff0000;
+ color: var(--primary-text-color);
+}
+.site-nav .link:active {
+ color: var(--acsent);
 }
 .auth-nav .link {
- color: #434455;
+ color: var(--primary-text-color);
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
- color: #ff0000;
+ color: var(--acsent);
 }
 .nav-tel {
  font-weight: 400;
@@ -108,6 +111,9 @@ body {
  display: flex;
  align-items: center;
  letter-spacing: 0.04em;
+}
+.hero-btn:active{
+    background-color: #404bbf;
 }
 
 /* Sections */
