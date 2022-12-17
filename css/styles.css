@@ -64,7 +64,7 @@ body {
 /* Site nav */
 .site-nav .link.current {
  color: var(--click-color);
- }
+}
 .site-nav .link {
  color: var(--site-nav-color);
 }
@@ -171,7 +171,6 @@ body {
  background-color: var(--footer-bgc);
 }
 .footer-text {
- font-weight: 400;
  font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
