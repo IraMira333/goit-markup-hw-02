@@ -1,12 +1,4 @@
-/* @format */
-
-/*IRIS WEB та кнопок color: #4D5AE5;*/
-/* NAVY BLUE другорядний колір тексту color: #2E2F42; */
-/* SLATE основний колір тексту color: #434455;*/
-/* CLOUD в футері колір STUDIO color: #F4F4FD; */
-/* CORNFLOWER в футері колір тексту color: #E7E9FC; */
-/* білий колір тексту color: #FFFFFF; */
-/* колір для кліка:  #404bbf */
+/** @format */
 
 :root {
  --site-nav-color: #2e2f42;
@@ -50,7 +42,7 @@ body {
  font-family: 'Raleway', sans-serif;
  font-weight: 800;
  font-size: 18px;
- line-height: 1.33x;
+ line-height: 1.33;
  display: flex;
  align-items: center;
  letter-spacing: 0.03em;
