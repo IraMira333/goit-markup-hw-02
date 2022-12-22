@@ -33,6 +33,7 @@ body {
  width: 1152px;
  padding-left: 12px;
  padding-right: 12px;
+ outline: 1px solid red;
 }
 .list {
  margin: 0;
@@ -136,28 +137,9 @@ body {
 }
 
 /* Sections */
-.visually-hidden {
- position: absolute;
- width: 1px;
- height: 1px;
- margin: -1px;
- border: 0;
- padding: 0;
-
- white-space: nowrap;
- clip-path: inset(100%);
- clip: rect(0 0 0 0);
- overflow: hidden;
-}
-.section-third {
- background-color: var(--bgc-section-third);
-}
-.team-card {
- background-color: var(--team-card-bgc);
-}
-.first-list {
-}
 .title-second {
+ margin: 0;
+ padding: 0;
  color: var(--title-two-color);
  font-weight: 500;
  font-size: 36px;
@@ -167,6 +149,8 @@ body {
  text-transform: capitalize;
 }
 .title-third {
+ margin: 0;
+ padding: 0;
  color: var(--title-three-color);
  font-weight: 500;
  font-size: 20px;
@@ -174,10 +158,38 @@ body {
  letter-spacing: 0.02em;
 }
 .text {
+ margin: 0;
+ padding: 0;
  font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
 }
+/* section 1 */
+
+.visually-hidden {
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ margin: -1px;
+ border: 0;
+ padding: 0;
+ white-space: nowrap;
+ clip-path: inset(100%);
+ clip: rect(0 0 0 0);
+ overflow: hidden;
+}
+/* section 2 */
+
+/* section 3 */
+.section-third {
+ background-color: var(--bgc-section-third);
+}
+.team-card {
+ background-color: var(--team-card-bgc);
+}
+.first-list {
+}
+
 /* Footer */
 .footer {
  background-color: var(--footer-bgc);
