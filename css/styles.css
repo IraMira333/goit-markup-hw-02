@@ -30,6 +30,8 @@ body {
  font-family: 'Roboto', sans-serif;
 }
 .container {
+ margin-left: auto;
+ margin-right: auto;
  width: 1152px;
  padding-left: 12px;
  padding-right: 12px;
@@ -115,16 +117,20 @@ body {
 /* Hero */
 
 .hero {
+ margin-left: auto;
+ margin-right: auto;
  background-color: var(--hero-bgc);
 }
 .hero-title {
  margin-top: 0;
- margin-bottom: 0;
- color: var(--hero-title-color);
+ margin-bottom: 40px;
+
  font-size: 56px;
  line-height: 1.07;
  text-align: center;
  letter-spacing: 0.02em;
+
+ color: var(--hero-title-color);
 }
 .hero-btn {
  color: var(--hero-btn-text);
@@ -139,6 +145,7 @@ body {
 /* Sections */
 .title-second {
  margin: 0;
+ margin-bottom: 72px;
  padding: 0;
  color: var(--title-two-color);
  font-weight: 500;
@@ -150,6 +157,7 @@ body {
 }
 .title-third {
  margin: 0;
+ margin-bottom: 8px;
  padding: 0;
  color: var(--title-three-color);
  font-weight: 500;
@@ -164,7 +172,12 @@ body {
  line-height: 1.5;
  letter-spacing: 0.02em;
 }
+
 /* section 1 */
+.section-first {
+ padding-top: 120px;
+ padding-bottom: 120px;
+}
 
 .visually-hidden {
  position: absolute;
@@ -178,20 +191,31 @@ body {
  clip: rect(0 0 0 0);
  overflow: hidden;
 }
+
 /* section 2 */
+.section-second {
+ padding-bottom: 120px;
+}
 
 /* section 3 */
 .section-third {
+ padding-bottom: 120px;
  background-color: var(--bgc-section-third);
+}
+.section-third .title-second {
+ padding-top: 120px;
 }
 .team-card {
  background-color: var(--team-card-bgc);
 }
+
 .first-list {
 }
 
 /* Footer */
 .footer {
+ padding-top: 100px;
+ padding-bottom: 100px;
  background-color: var(--footer-bgc);
 }
 .footer-text {
